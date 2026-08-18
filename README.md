@@ -27,11 +27,9 @@
 
 ## ✦ About
 
-> **Operon AI** is an autonomous observability platform that **monitors, diagnoses and automates financial operations in real time** — from the raw event to the executed, audited and learned decision.
+> **Operon AI** monitors, diagnoses and automates financial operations in real time — from the raw event to the executed, audited and learned decision.
 
-Onboarding and credit operations run across a chain of external providers — OCR, KYC, AML, bureaus, core banking. When one of them degrades, the damage is silent: SLAs slip, cases pile up, customers drop off, and nobody finds out until the monthly report.
-
-Operon AI closes that gap. It watches every event, builds its own causal hypotheses, tests them against a deterministic simulation engine, ranks the possible actions, submits them to governance, and executes the approved one — leaving a complete evidence trail behind.
+Onboarding and credit run across a chain of external providers: OCR, KYC, AML, bureaus, core banking. When one of them degrades, the damage is silent. SLAs slip, cases pile up, customers drop off, and nobody finds out until the monthly report.
 
 ---
 
@@ -39,8 +37,6 @@ Operon AI closes that gap. It watches every event, builds its own causal hypothe
 
 > Financial operations are **observed in dashboards**,
 > but they are **decided in the dark**.
-
-In a typical onboarding and credit stack this means:
 
 - ◦ **Fragmented visibility** — each provider has its own console, none has the whole picture
 - ◦ **Reactive diagnosis** — root cause is found days after the SLA is already broken
@@ -51,99 +47,36 @@ In a typical onboarding and credit stack this means:
 
 ## ✦ How It Works
 
-<div align="center">
+![How It Works](./images/how-it-works.png)
 
-**Observe** → **Comprehend** → **Simulate** → **Decide** → **Automate** → **Learn**
+A **closed loop**. The last stage feeds the first — each cycle makes the next diagnosis sharper.
 
-</div>
-
-| Stage | What happens |
-|-------|--------------|
-| **Observe** | Every event is captured from the connectors in real time. |
-| **Comprehend** | The evidence engine builds causal hypotheses automatically. |
-| **Simulate** | What-if actions are validated against a deterministic engine. |
-| **Decide** | Recommendations are ranked by MCDA with governance consensus. |
-| **Automate** | Approved actions are executed in sandbox or production. |
-| **Learn** | The operational DNA evolves its baselines from real outcomes. |
-
-It is a **closed loop**. Each cycle makes the next diagnosis sharper.
-
----
-
-## ✧ Architecture
-
-<div align="center">
+Six layers sit under those six stages:
 
 | Layer | Responsibility |
 |-------|----------------|
-| **Observation Layer** | Events, Cases, Documents, Connectors |
-| **Intelligence Engine** | Evidence, Hypotheses, Causal Relations |
-| **Testing Engine** | Scenarios, What-If, Comparison |
-| **Decision Platform** | MCDA, Governance, Consensus |
-| **Automation Layer** | Execution Plans, Connectors, Sandbox |
-| **Learning Loop** | Operational DNA, Baselines, Memory |
-
-*Every layer feeds the next — and the last one feeds the first.*
-
-</div>
-
----
-
-## ✦ The Differential
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ❌ Traditional observability
-
-- Dashboards that show *what* broke
-- Root cause found by a human, days later
-- Actions applied straight to production
-- AI recommendations with no evidence
-- Audit reconstructed after the fact
-
-</td>
-<td width="50%" valign="top">
-
-### ✅ Operon AI
-
-- Engine that explains *why* it broke
-- Automatic hypotheses with confidence scores
-- Every action simulated before it runs
-- Full evidence chain behind each decision
-- Immutable audit trail, built in by design
-
-</td>
-</tr>
-</table>
+| **Observation** | Events, Cases, Documents, Connectors |
+| **Intelligence** | Evidence, Hypotheses, Causal Relations |
+| **Testing** | Scenarios, What-If, Comparison |
+| **Decision** | MCDA, Governance, Consensus |
+| **Automation** | Execution Plans, Connectors, Sandbox |
+| **Learning** | Operational DNA, Baselines, Memory |
 
 ---
 
 ## ✧ Digital Twin & AI Workforce
 
-> A **virtual representation of your operation in real time**, monitored by AI specialists that collaborate, deliberate and decide by consensus.
+![Digital Twin & AI Workforce](./images/digital-twin.png)
 
-<div align="center">
-
-| Specialist | Domain |
-|-----------|--------|
-| **Operations** | SLA & throughput analysis |
-| **Risk** | Fraud & operational risk |
-| **Compliance** | KYC/AML policy adherence |
-| **Fraud** | Pattern detection & scoring |
-| **Credit** | ROI & cost optimization |
-| **Customer Success** | Experience & onboarding flow |
-
-</div>
-
-Agents do not act alone. They hold **contracts** that define their mission, allowed services and constraints; they **vote**; their **conflicts** are recorded and resolved; and a **Decision Constitution** with weighted principles and mandatory constraints bounds what the collective is allowed to approve.
+Agents do not act alone. Each holds a **contract** defining its mission, allowed services and constraints. They **vote**, their **conflicts** are recorded and resolved, and a **Decision Constitution** — weighted principles plus mandatory constraints — bounds what the collective is allowed to approve.
 
 ---
 
-## ✦ Platform Modules
+## ✦ Mission Control
 
-<div align="center">
+![Mission Control](./images/dashboard.png)
+
+The console behind the twin, organized by what you are trying to do:
 
 | Group | Modules |
 |-------|---------|
@@ -155,61 +88,57 @@ Agents do not act alone. They hold **contracts** that define their mission, allo
 | **AI Center** | AI Workforce · Agent Registry · Agent Consensus · Agent Monitor · Playground · Human Review |
 | **Platform** | Gateway · Services · Contracts · Capabilities · Artifacts · Prompts · Policies · Health · Costs |
 
-</div>
-
-Dedicated **workspaces** for Onboarding, Credit, Fraud and Compliance, plus **role-aware navigation** — an executive, an operator and a compliance officer each see the surface that belongs to them.
+Dedicated workspaces for **Onboarding**, **Credit**, **Fraud** and **Compliance**, with role-aware navigation — an executive, an operator and a compliance officer each see the surface that belongs to them.
 
 ---
 
 ## ✧ Integrations
 
-<div align="center">
-
-![OCR](https://img.shields.io/badge/OCR-Sandbox_Ready-FACC15?style=for-the-badge&labelColor=0A0A0A)
-![CRM](https://img.shields.io/badge/CRM-Production_Ready-10B981?style=for-the-badge&labelColor=0A0A0A)
-![KYC](https://img.shields.io/badge/KYC-Production_Ready-10B981?style=for-the-badge&labelColor=0A0A0A)
-![AML](https://img.shields.io/badge/AML-Sandbox_Ready-FACC15?style=for-the-badge&labelColor=0A0A0A)
-
-![Core Banking](https://img.shields.io/badge/Core_Banking-Production_Ready-10B981?style=for-the-badge&labelColor=0A0A0A)
-![Documents](https://img.shields.io/badge/Documents-Sandbox_Ready-FACC15?style=for-the-badge&labelColor=0A0A0A)
-![Notifications](https://img.shields.io/badge/Notifications-Production_Ready-10B981?style=for-the-badge&labelColor=0A0A0A)
-
-*Plug-and-play with your existing stack — sandbox first, production when you say so.*
-
-</div>
+![Integrations](./images/integrations.png)
 
 ---
 
-## ✦ A Real Loop, End to End
-
-A walkthrough of what the platform actually does with an incident:
+## ✦ A Real Incident, End to End
 
 | Step | What Operon AI does |
 |------|---------------------|
 | **1 · Problem** | AML provider latency at 1,200 ms against an 800 ms P95 baseline — 12 cases affected, 3 SLAs breached. |
 | **2 · Diagnosis** | Evidence engine finds progressive degradation over 7 days, correlated with a provider update. **87% confidence, 5 supporting pieces of evidence.** |
 | **3 · Simulation** | What-if: route 50% of traffic to the secondary provider → **35% lower average latency**. |
-| **4 · Recommendation** | Dynamic 50/50 routing for the AML stage. Estimated ROI, implementation cost and projected SLA impact attached. |
+| **4 · Recommendation** | Dynamic 50/50 routing for the AML stage, with estimated ROI, implementation cost and projected SLA impact attached. |
 | **5 · Governance** | The action goes to the approval matrix. Agents vote, conflicts surface, a human signs off. |
 | **6 · Execution** | Plan → Apply → Verify, with the operational state visible at each step and rollback available. |
 
-Every one of those steps is a screen you can open, drill into and export.
+Every step is a screen you can open, drill into and export.
 
 ---
 
-## ✧ Visual Showcase
+## ✧ The Differential
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-![Operon AI — Mission Control](./images/dashboard.png)
+### ❌ Traditional observability
 
-![Operon AI — Digital Twin & AI Workforce](./images/digital-twin.png)
+- Dashboards that show *what* broke
+- Root cause found by a human, days later
+- Actions applied straight to production
+- Audit reconstructed after the fact
 
-![Operon AI — How It Works](./images/how-it-works.png)
+</td>
+<td width="50%" valign="top">
 
-![Operon AI — Integrations](./images/integrations.png)
+### ✅ Operon AI
 
-</div>
+- An engine that explains *why* it broke
+- Automatic hypotheses with confidence scores
+- Every action simulated before it runs
+- Immutable audit trail, built in by design
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -226,7 +155,7 @@ Every one of those steps is a screen you can open, drill into and export.
 
 </div>
 
-Beyond the operational layer, the platform ships an **AI governance suite**: model registry, prompt registry, evaluations, experiments, incidents, cost tracking, testing and a trust center. If an agent made a call, you can find out which model, which prompt, which policy and which evidence produced it.
+On top of that, an **AI governance suite**: model registry, prompt registry, evaluations, experiments, incidents, cost tracking and a trust center. If an agent made a call, you can trace which model, which prompt, which policy and which evidence produced it.
 
 ---
 
@@ -246,25 +175,11 @@ Beyond the operational layer, the platform ships an **AI governance suite**: mod
 
 </div>
 
-**Frontend** — React 19 + Vite + TypeScript, Shadcn UI over Radix, Tailwind CSS, React Router, React Hook Form + Zod, Recharts for the analytical surfaces.
-
-**Backend** — PocketBase with a versioned migration chain covering connectors, evidence, intelligence, simulation, multi-agent, integration layer, AI governance, decision platform and automation.
-
-**Interface** — bilingual PT/EN, role-aware navigation, command palette, live pipeline, guided Mission Control narrative mode.
+PocketBase backs it with a versioned migration chain covering connectors, evidence, intelligence, simulation, multi-agent, integration layer, AI governance, decision platform and automation. The interface is bilingual PT/EN, with a command palette and a guided Mission Control narrative mode.
 
 ---
 
-## ✦ Purpose
-
-<div align="center">
-
-> ### *Operations should not be watched. They should be understood, tested, decided and learned from.*
-
-</div>
-
----
-
-## ✧ Roadmap
+## ✦ Roadmap
 
 <div align="center">
 
@@ -274,6 +189,16 @@ Beyond the operational layer, the platform ships an **AI governance suite**: mod
 | **Q2 2026** | Multi-Agent Orchestration — specialist agents, consensus & voting, conflict resolution | 🔄 Active |
 | **Q3 2026** | Advanced Testing — digital twin modeling, what-if builder, sensitivity analysis | ⏳ Planned |
 | **Q4 2026** | Global Scale — multi-region deployment, enterprise SSO & SCIM, custom model fine-tuning | ⏳ Planned |
+
+</div>
+
+---
+
+## ✧ Purpose
+
+<div align="center">
+
+> ### *Operations should not be watched. They should be understood, tested, decided and learned from.*
 
 </div>
 
