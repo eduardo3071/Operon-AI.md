@@ -17,6 +17,10 @@
 ![LGPD](https://img.shields.io/badge/LGPD-Compliant-22D3EE?style=for-the-badge&labelColor=0A0A0A)
 ![Enterprise](https://img.shields.io/badge/Enterprise-Audit_Ready-A78BFA?style=for-the-badge&labelColor=0A0A0A)
 
+<br/>
+
+![Operon AI](./images/hero.png)
+
 </div>
 
 ---

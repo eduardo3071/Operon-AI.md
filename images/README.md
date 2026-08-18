@@ -2,6 +2,7 @@
 
 | File | Content |
 |------|---------|
+| `hero.png` | Landing hero — positioning and headline stats |
 | `how-it-works.png` | The six-stage autonomous loop |
 | `digital-twin.png` | Digital Twin & AI Workforce — specialists and health score |
 | `dashboard.png` | Mission Control — Dashboard Overview |
