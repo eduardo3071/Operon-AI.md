@@ -2,7 +2,6 @@
 
 | File | Content |
 |------|---------|
-| `banner.png` | Operon AI header banner |
 | `how-it-works.png` | The six-stage autonomous loop |
 | `digital-twin.png` | Digital Twin & AI Workforce — specialists and health score |
 | `dashboard.png` | Mission Control — Dashboard Overview |
