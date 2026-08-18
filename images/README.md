@@ -1,12 +1,12 @@
 # Images
 
-| File | Content | Status |
-|------|---------|--------|
-| `banner.png` | Operon AI header banner | ✅ included |
-| `dashboard.png` | Mission Control / Dashboard Overview screenshot | ⬜ to add |
-| `digital-twin.png` | Digital Twin & AI Workforce section | ⬜ to add |
-| `how-it-works.png` | "Como funciona" — the 6-step loop | ⬜ to add |
-| `integrations.png` | "Integrações" — connector grid | ⬜ to add |
+| File | Content |
+|------|---------|
+| `banner.png` | Operon AI header banner |
+| `how-it-works.png` | The six-stage autonomous loop |
+| `digital-twin.png` | Digital Twin & AI Workforce — specialists and health score |
+| `dashboard.png` | Mission Control — Dashboard Overview |
+| `integrations.png` | Connector grid with sandbox / production status |
 
-Drop the four screenshots into this folder using exactly those filenames and the
-**Visual Showcase** section of the root `README.md` renders with no further edits.
+Screenshots are captured from the [operon-ai](https://github.com/eduardo3071/operon-ai)
+app running locally at a 1600px-wide viewport.
